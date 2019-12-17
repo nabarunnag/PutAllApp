@@ -1,0 +1,8 @@
+---
+applications:
+  - name: PutAll_app_4
+    path: build/libs/PutAllApp-1.0-SNAPSHOT-all.jar
+    no-route: true
+    health-check-type: none
+    services:
+      - pcc-benchmark-service
